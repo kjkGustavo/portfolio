@@ -48,7 +48,7 @@ const Home: NextPage = () => {
                 height={80}
                 className="wave overflow-visible"
               />
-              Hello, I'm Gustavo!
+              Hello, I&apos;m Gustavo!
             </h1>
             <p
               className="my-4 text-xl lg:text-2xl text-description fade-in-title"
