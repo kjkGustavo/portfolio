@@ -1,10 +1,11 @@
 export type ProjectProps = {
   name: string
   description: string
+  url: string
 }
 
-const Project = ({ name, description }: ProjectProps) => (
-  <a href="/asdad" className="group relative">
+const Project = ({ name, description, url }: ProjectProps) => (
+  <a href={url} className="group relative h-full" target="_blank" rel="noreferrer">
     <div
       className="border-border-primary border-solid border-[1px] rounded-md bg-card-primary/40 hover:bg-card-hover/40 backdrop-blur-xl py-3 px-2.5 hover:border-border-hover fade-in"
       style={{ boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', animationDelay: '1.2s' }}
