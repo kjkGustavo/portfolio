@@ -13,6 +13,11 @@ const projects: ProjectProps[] = [
     url: 'https://github.com/kjkGustavo/portfolio',
   },
   {
+    name: 'Portfolio',
+    description: 'Uma aplicação para fazer upload de um arquivo e salvar os dados corretamente.',
+    url: 'https://github.com/kjkGustavo/transactions',
+  },
+  {
     name: 'He4rt Conf',
     description: 'Projeto open-source para o evento He4rtConf2021, loja, autenticação e ingressos.',
     url: 'https://github.com/kjkGustavo/he4rtconf-landing',
